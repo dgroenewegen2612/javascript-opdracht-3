@@ -33,3 +33,15 @@ number=Math.floor(Math.random()*11)+0;
 randomNumber.innerHTML= "<p>"+ number +"</p>"
 })
 
+//opdracht 5
+let listButton = document.querySelector(".list");
+
+listButton.addEventListener("click", function () {
+
+    const ol = document.querySelector(".ol")
+
+    let choose = prompt("Voeg iets toe aan de lijst")
+
+    ol.innerHTML += "<li>"+choose+"</li>"
+
+})
